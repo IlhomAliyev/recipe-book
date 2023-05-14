@@ -1,0 +1,34 @@
+{
+  "recipes": [
+    {
+      "name": "Apple Frangipan Tart",
+      "image": "https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg",
+      "id": 1
+    },
+    {
+      "name": "Apple & Blackberry Crumble",
+      "image": "https://www.themealdb.com/images/media/meals/xvsurr1511719182.jpg",
+      "id": 2
+    },
+    {
+      "name": "Apam balik",
+      "image": "https://www.themealdb.com/images/media/meals/adxcbq1619787919.jpg",
+      "id": 3
+    },
+    {
+      "name": "Ayam Percik",
+      "image": "https://www.themealdb.com/images/media/meals/020z181619788503.jpg",
+      "id": 4
+    },
+    {
+      "name": "Bakewell tart",
+      "image": "https://www.themealdb.com/images/media/meals/wyrqqq1468233628.jpg",
+      "id": 5
+    },
+    {
+      "name": "Bread and Butter Pudding",
+      "image": "https://www.themealdb.com/images/media/meals/xqwwpy1483908697.jpg",
+      "id": 6
+    }
+  ]
+}

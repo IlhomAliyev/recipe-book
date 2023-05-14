@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202020;
+  color: #fff;
+  font-family: 'Titillium Web';
+  font-size: 16px;
+}
+
+.App {
+  padding: 20px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #e08594;
+  color: white;
+  padding: 10px 15px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  transition: 300ms;
+
+  &:hover {
+    transform: scale(1.05);
+    background-color: #b76d79;
+  }
+
+  &:active {
+    transform: scale(0.9);
+    transition: 100ms;
+  }
+}
+
+input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  outline: 2px solid transparent;
+  border-radius: 12px;
+  transition: 300ms;
+
+  &:focus,
+  &:hover {
+    outline-color: #e08594;
+  }
+}
+
+.Search {
+  width: 100%;
+  margin-bottom: 10px;
+
+  p {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+
+  .inputWrapper {
+    display: flex;
+    gap: 20px;
+
+    input {
+      flex: 1 1 auto;
+    }
+
+    button {
+      flex: 0 1 20%;
+    }
+  }
+}

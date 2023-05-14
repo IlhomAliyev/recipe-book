@@ -1,0 +1,22 @@
+.Search {
+  width: 100%;
+  margin-bottom: 10px;
+
+  p {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+
+  .inputWrapper {
+    display: flex;
+    gap: 20px;
+
+    input {
+      flex: 1 1 auto;
+    }
+    
+    button {
+      flex: 0 1 20%;
+    }
+  }
+}

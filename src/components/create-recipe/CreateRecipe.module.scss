@@ -1,0 +1,22 @@
+.CreateRecipe {
+  margin-bottom: 20px;
+
+  p {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+
+  form {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+
+    label {
+      flex: 1 1 100%;
+    }
+
+    button {
+      flex: 0 1 10%;
+    }
+  }
+}

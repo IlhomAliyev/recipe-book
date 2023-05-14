@@ -1,0 +1,102 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #892c3c;
+
+  #appName {
+    text-decoration: underline;
+  }
+
+  .iconWrapper {
+    &:not(:hover) {
+      animation: dribble 1000ms infinite;
+      box-shadow: 0 5px 15px black;
+    }
+
+    &:hover {
+      margin-bottom: -22px;
+      padding-bottom: 30px;
+      border-radius: 8px 8px 0 0;
+    }
+
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    background-color: #e08594;
+    border-radius: 8px;
+    padding: 8px;
+    transition: 300ms;
+
+    position: relative;
+
+    .favRecipes {
+      position: absolute;
+      background-color: #e08594;
+      border-radius: 8px 0 8px 8px;
+      padding: 15px;
+
+      right: 0;
+      top: 0px;
+      width: 50vw;
+
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+
+      transition: 300ms;
+
+      &._active {
+        top: 60px;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: all;
+      }
+
+      .fav {
+        background-color: #353535;
+        padding: 5px 5px 5px 10px;
+        border-radius: 3px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+          width: 50px;
+          border-radius: 5px;
+        }
+      }
+
+      .fav:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+
+    .icon {
+      font-size: 26px;
+    }
+
+    #favCount {
+      font-size: 20px;
+      background-color: #892c3c;
+      height: 25px;
+      width: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+    }
+  }
+}
+
+@keyframes dribble {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
