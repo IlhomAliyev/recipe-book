@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## JSON SERVER
-### `json-server db.json --port 4300 --watch
+### `json-server db.json --port 4300 --watch`
 
 ## Available Scripts
 
