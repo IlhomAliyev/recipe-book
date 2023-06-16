@@ -1,6 +1,6 @@
-import { PayloadAction, createSlice } from '@reduxjs/toolkit';
-import { getUserById } from './user.actions';
-import { IInitialUserState, IUser } from '../../types/user.types';
+import { PayloadAction, createSlice } from "@reduxjs/toolkit";
+import { getUserById } from "./user.actions";
+import { IInitialUserState, IUser } from "../../types/user.types";
 
 const initialState: IInitialUserState = {
   isLoading: false,
@@ -9,7 +9,7 @@ const initialState: IInitialUserState = {
 };
 
 export const UserSlice = createSlice({
-  name: 'users',
+  name: "users",
   initialState,
   reducers: {},
   extraReducers: (builder) => {

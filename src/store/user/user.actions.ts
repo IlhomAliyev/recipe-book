@@ -12,8 +12,8 @@ export const getUserById = createAsyncThunk<IUser, number>(
     try {
       const response = fetchUserById(userId);
       return response;
-    } catch (e) {
-      return thunkApi.rejectWithValue(e);
+    } catch (error) {
+      return thunkApi.rejectWithValue(error);
     }
   }
 );

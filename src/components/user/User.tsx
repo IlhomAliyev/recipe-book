@@ -1,8 +1,6 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
 import { useActions } from '../../hooks/useActions';
-import LoadingDots from '../LoadingDots';
 import { useTypedSelector } from '../../hooks/useTypedSelector';
+import LoadingDots from '../LoadingDots';
 
 const User = () => {
   const { isLoading, error, user } = useTypedSelector((state) => state.user);
